@@ -46,7 +46,7 @@ heigh = thickness + 2*(thickness-1)
 row = thickness
 space= thickness-1 #3
 
-for i in range(1,heigh+1): #0 - 5 +2*(5-1) = 13
+for i in range(1,heigh+1): 
     if(i < thickness):
         print(" "*space,end="")
         for j in range(row):
